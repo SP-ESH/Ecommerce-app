@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.52.0",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "mongoose": "^7.0.3",
+    "next": "^13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "stripe": "^11.16.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "use-local-storage-state": "^18.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwind-scrollbar": "^3.0.0",
+    "tailwindcss": "^3.2.7"
   }
 }
